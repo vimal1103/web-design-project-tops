@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+h2 {
+    text-transform: uppercase;
+}
+.logo {
+    color: rgba(0, 0, 0, 0.361);
+    font-weight: bold;
+}
+.hero .h2 {
+    color: lightgrey !important;
+    font-weight: bold;
+    line-height: 1.2;
+    font-weight: 300;
+}
+.custom_form p,
+.hero-2 p,
+.work p {
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+    font-size: 14px;
+}  
+
+.custom_btn,
+.custom_btn:active {
+    box-shadow: 1px 2px 10px rgba(180, 167, 192, 0.37);
+    border: none;
+    border-radius: 15px;
+    padding: 12px 30px;
+    color: rgb(124, 124, 124);
+    line-height: 1.2;
+    background: transparent;
+    font-size: 14px;
+    outline: none;
+}
+.custom_form {
+    box-shadow: 8px 5px 20px rgba(180, 167, 192, 0.37);
+    border-radius: 10px;
+}
+.custom_form input {
+    background: transparent;
+    border-radius: 20px;
+    outline: none !important;
+    box-shadow: 1px 2px 10px rgba(180, 167, 192, 0.37);
+    border: 1px solid transparent;
+    border-radius: 14px;
+}
+.custom_form input:focus {
+    box-shadow: inset 3px 3px 4px rgba(180, 167, 192, 0.27), inset -2px -2px 4px white;
+    background: rgb(240, 240, 240);
+    border: 1px solid transparent !important;
+}
+.custom_form button {
+    background-color: rgb(5, 134, 233);
+    box-shadow: 3px 3px 5px rgba(180, 167, 192, 0.37);
+    border-radius: 40px;
+    border: none;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+  
+.custom_form button:active {
+    outline: none;
+}
+.custom_form h4 {
+    color: rgb(5, 134, 233);
+    line-height: 1.2;
+}
+.hero-2 h1 {
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 50px;
+
+}
+.who-sec .img,
+.number-info .img {
+    background-color: rgb(192, 192, 192);
+}
+.who-sec .inner {
+    background-color: rgb(234, 234, 234);
+}
+.number-info p {
+    line-height: 16px;
+    margin: 0;
+}
+.number-info h3 {
+    font-weight: bold;
+}
+.number-info .img {
+    height: 50vh;
+}
+.number-info .inner{
+    position: relative;
+    top: -40px;
+    z-index: -1;
+}
+.work .step {
+    color: rgb(5, 134, 233);
+    font-weight: bold;
+    background-color: rgb(5, 134, 233,0.2);
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+.work .card {
+    border-radius: 14px;
+    box-shadow: 1px 2px 10px rgba(180, 167, 192, 0.37);
+}
+.carousel-indicators li {
+    background-color: rgb(5, 134, 233) !important;
+}
+.copy_text {
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+}
+.footer {
+    background-color: rgb(233, 233, 233);
+}
+.footer .custom_form {
+    box-shadow: none !important;
+}
+.number-info .text-d {
+    font-size: 30px;
+}
+@media screen and (max-width: 430px) {
+    .hero-2 h1 {
+        font-size: 35px;
+    }
+    .custom_form p, .hero-2 p, .work p {
+        font-size: 16px;
+    }
+    .who-sec .img {
+        height: 40vh;
+    }
+    .number-info .text-d {
+        font-size: 20px;
+    }
+    .hero h3 {
+        font-size: 20px;
+    }
+}
