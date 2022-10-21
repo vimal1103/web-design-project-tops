@@ -1,0 +1,57 @@
+1) What is JavaScript? 
+    => JavaScript is langauge for web, you can make dynamic and interactive webpage using JavaScript programming langauge
+
+2) What is the use of isNaN function?
+    => the isNaN function is not a  number it means when we define a any string and try to use like int that time that function is return
+
+3) What is negative Infinity? 
+    =>NEGATIVE_INFINITY is the same as the negative value of the global object's Infinity property. This value behaves slightly differently than mathematical infinity: Any positive value, including POSITIVE_INFINITY , multiplied by NEGATIVE_INFINITY is NEGATIVE_INFINITY
+
+4) Which company developed JavaScript?
+    =>The first ever JavaScript was created by Brendan Eich at Netscape, than after ECMA internation define that standard every updates
+
+5) What are undeclared and undefined variables? 
+    =>Undefined variable means a variable has been declared but it does not have a value. Undeclared variable means that the variable does not exist in the program at all.
+
+6) Write the code for adding new elements dynamically? 
+    => refer 1.html
+
+7) What is the difference between ViewState and SessionState? 
+    =>The basic difference between these two is that the ViewState is to manage state at the client's end, making state management easy for end-user while SessionState manages state at the server's end, making it easy to manage content from this end too. ViewState: It is maintained at only one level that is page-level
+
+8) What is === operator? 
+    => === operator check the value and type of datatype
+
+9)How can the style/class of an element be changed? 
+    =>document.getElementById("id name").style.color = "red"
+    =>document.getElementsByClassName("class name).innerHTML = "hello i am vimal parmar";
+
+10) What are all the looping structures in JavaScript? 
+    => for loop, while loop, for_of loop, for_in loop, do_while loop
+
+11) How can you convert the string of any base to an integer in JavaScript? 
+    => using parseInt() method
+
+12) What is the function of the delete operator?
+    => delete object.property
+
+13) What are all the types of Pop up boxes available in JavaScript? 
+    => alert() box, promt() box, confirm() boxes
+
+14) What is the function of the delete operator? 
+    =>The delete operator removes a given property from an object. On successful deletion, it will return true, else false will be returned.
+
+15) What is the use of Void (0)?
+    =>JavaScript void 0 means returning undefined (void) as a primitive value. You might come across the term “JavaScript:void(0)” while going through HTML documents. It is used to prevent any side effects caused while inserting an expression in a web page.
+
+16) How can a page be forced to load another page in JavaScript? 
+    =>We can use window. location property inside the script tag to forcefully load another page in Javascript. It is a reference to a Location object that is it represents the current location of the document. We can change the URL of a window by accessing it.
+
+17) What are the disadvantages of using innerHTML in JavaScript? 
+    =>Content is replaced everywhere.
+    =>We cannot use like 'appending to innerHTML'         
+    =>Even if you use +=like 'innerHTML = innerHTML + 'html'' still the old content is replaced by html.
+    =>The entire innerHTML content is re-parsed and builds into elements, therefore its much slower.
+
+18) How can you convert the string of any base to an integer in JavaScript?
+    =>In JavaScript parseInt() function (or a method) is used to convert the passed in string parameter or value to an integer value itself. This function returns an integer of base which is specified in second argument of parseInt() function

@@ -1,0 +1,10 @@
+1) What is JQuery? 
+   => JQuery is javascript library designed to simplify HTML DOM tree trevesal and manipulation, as well as event handling and css animation and AJAX
+
+2) How to Apply CSS Using JQuery, How to Add Class and Remove Class in JQuery, JQuery Animation?
+    => apply css using JQuery reffer first.html 
+    => How to class and remove class in JQuery reffer second.html and third.html
+    => JQuery Animation reffer forth.html 
+
+3) How to create slider with animation? 
+   => reffer fifth.html

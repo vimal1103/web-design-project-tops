@@ -1,0 +1,70 @@
+1)  WHAT ARE THE BENEFITS OF USING CSS?
+    => The benefits of css is you can style your html webpage in  stylish way
+    => You can use css mulptiple time because you can style same all variable with only one css elemnt
+
+2) WHAT ARE THE DISADVANTAGES OF CSS?
+    => css are work diffrently in every browser so you need to check your CSS compatibily in avery browser you want to executes
+    =>there might be cross brower issue while using css
+ 
+3) WHAT IS DIFFRENCE BETWEEN CSS AND CSS3?
+    =>CSS is capable of positining texts and objects. on other hand, css3 is capable of making the web page more attractive and takes less time to create. CSS3 is backward compatible with CSS. CSS3 is the latest version, hence it supports responsive design.
+
+4) NAME FEW CSS STYLE COMPONENT.
+    =>selector, attributes, value, font-size, color, background, etc.
+
+5) WHAT YOU UNDERSTAND BY CSS OPACITY?
+    => CSS opacity  make content, background transperence
+
+6) How can the background color of an element be changed?
+    => first In CSS select component, class, id whatever you wanted to change background the give background-color property and give color value
+    i.e.  div{
+        background-color: red;
+    }
+    like that
+
+7) How can image repetition of the backup be controlled?
+    => you can give background-repeat property to image and give no-repeat value
+
+8) What is the use of the background-position property?
+    => this property set the starting position of background image
+
+9) Which property controls the image scroll in the background?
+    =>background-attachment property controls the image scroll in the background
+
+10) Why should background and color be used as separate properties? 
+    =>background property is complex property that's why you attach color with background it will increase the complecity of the property
+
+11) How to center block elements using CSS1?
+    =>With css the way to center anything that's a block level element is with the margin property. One of the values of margin is auto and by setting auto on the left and right margin our block level element will center itself
+
+12) What are the ways to integrate CSS as a web page? 
+    =>their are three way to integrate a css in web page
+        1. inline css
+        2. internal css
+        3. external css
+
+13) What is embedded style sheets? 
+    =>Embedded style sheets allow you to define styles for the whole HTML document in one place. Embedded style sheets refer to when you embed style sheet information into an HTML document using the <style> element. You do this by embedding the style sheet information within <style></style> tags in the head of your document.
+
+14) What are the external style sheets? 
+    => external stylesheet is to link the external stylesheet file with your html page
+
+15) What are the advantages and disadvantages of using external style sheets? 
+    =>Advantages
+        1) The style of a few documents can be controlled from the site by utilizing them.
+        2) Multiple HTML elements can have numerous documents, where classes can be made.       
+        3) To assemble styles in complex circumstances, selector and grouping strategies are utilized.
+    =>disadvantages
+        1) The additional download is expected to import documents having style information.
+        2) To render the documents, the outer template ought to be stacked.
+        3) Not practical for small style definitions.
+
+16) What is the meaning of the CSS selector? 
+    => A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.
+
+17) What are the media types allowed by CSS?
+    =>continuous or paged.
+    visual, audio, speech, or tactile.
+    grid  or bitmap.
+    interactive  or static 
+    
